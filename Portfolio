@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JANHAVI RAKIBE - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .project {
+      flex: 1;
+      background-color: #eee;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>JANHAVI RAKIBE</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="D:\Rakhi\CLG photo.jpg" alt="JANHAVI RAKIBE">
+    <p>
+      Aspiring Web Developer | Coding Enthusiast
+🚀 Hello, World! I'm Janhavi Rakibe, a budding web developer with a passion for crafting digital experiences that leave a lasting impression. My journey into the world of coding is a thrilling adventure where every line of code is a step towards transforming ideas into reality.
+
+
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>💻 Coding Languages: Currently exploring the realms of Python, JavaScript, and excited to embrace more.
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <!-- Add more skills as needed -->
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+  
+      <!-- Calculator Project -->
+      <div class="project">
+        <h3>Calculator Project</h3>
+        <p>A simple calculator built using HTML, CSS, and JavaScript.</p>
+        <img src="calculator-image.jpg" alt="Calculator Project">
+        <!-- Add more details or links as needed -->
+      </div>
+  
+      <!-- Registration Form Project -->
+      <div class="project">
+        <h3>Registration Form Project</h3>
+        <p>A registration form with HTML form elements and validation.</p>
+        <img src="REGISTRATION.jpg" alt="Registration Form Project">
+        <!-- Add more details or links as needed -->
+      </div>
+  
+      <!-- Add more projects as needed -->
+  
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume <a href="CV.pdf" target="_blank">here</a>.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email:janhavirakibe@gmail.com</p>
+    <p>Phone: 9403941688</p>
+  </section>
+
+  <footer>
+    &copy; 2023 Janhavi Rakibe. All rights reserved.
+  </footer>
+
+</body>
+</html>
